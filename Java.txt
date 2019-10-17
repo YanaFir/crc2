@@ -152,7 +152,6 @@ class Prisvoen
 		return y;
 	}
 	
-
 } 
 	
 class Program
@@ -166,68 +165,34 @@ class Program
 }
 
 Задание 1.6 
-class CONCAT_Class 
+class CONCAT 
 { 
-String a; 
-String b; 
-String c; 
-public void INC_Method() 
-{ 
-a = "5"; 
-b = "8"; 
-} 
-
-public int CONCAT_Func() 
-{ 
-try 
-{ 
-c = a + b; 
-return c; 
-} 
-catch 
-{ 
-Application.DoEvents(); 
-} 
-} 
-} 
-
-class Program 
-{ 
-public static void Main() 
-{ 
-CONCAT_Class CC = new CONCAT_Class(); 
-CC.INC_Method(); 
-System.out.Println(CC.CONCAT_Func()); 
-} 
-} 
-
-Задание 1.7 
-class DEC 
-{ 
-
-	int x; 
-	double y; 
+	String a; 
+	String b; 
+	String c; 
 	public void Method() 
 	{ 
-		x = 55; 
+		a = "5"; 
+		b = "8"; 
 	} 
 
 	public int Func() 
 	{ 
-		y = x / 3; 
-		return y; 
-	}
+		c = a + b; 
+		return c; 
+	} 
 } 
 
 class Program 
 { 
 	public static void Main() 
 	{ 
-		DEC DC = new DEC(); 
-		DC.Method(); 
-		System.out.Println(DC.Func()); 
+		CONCAT CC = new CONCAT(); 
+		CC.Method(); 
+		System.out.Println(CC.Func()); 
 	} 
-}
+} 
+
 
 	
 	
