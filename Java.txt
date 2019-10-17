@@ -1,0 +1,238 @@
+Задание 1.1 
+1) int 1x; - Неправильно. В соотвествии с синтаксисом. Цифра не ставится в начале имени переменной. 
+
+2) double t; 
+int t; - Правильно. В соотвествии с синтаксисом. 
+
+3) int f, f; - Правильно. В соотвествии с синтаксисом. 
+
+4) int x, X; 
+int a; a1 - Правильно. В соотвествии с синтаксисом. 
+
+5) String kniga1; kniga2; - Правильно. В соотвествии с синтаксисом. 
+
+6) char znak1, znak2, znak_1; - Правильно. В соотвествии с синтаксисом. 
+
+7) int x, a, b; 
+double y, z, x - Правильно. В соотвествии с синтаксисом. 
+
+8) int x; 
+double X; - Правильно. В соотвествии с синтаксисом.
+
+
+Задание 1.2
+1) int x;
+x = -5
+Всё верно, тип и значение переменной указаны правильно.
+
+2) inta = 0.0, b = 7 
+Нет пробела (int a)
+Тип указан неверно, нужен double
+
+3) int b = 3;
+   double c;
+   c = 5.0;
+Все указано правильно.
+
+4) int a,b,c = 5; // неправильно, значение переменным b и c неприсвоено (int a = 7, b = 4, c = 5);
+   b = 5c;        // неправильно, всоотвествии с синтаксисом. Цифра не ставится в начале имени переменной, не хватает знака умножения (b = 5*c)
+   a = -b; 	  // все верно
+
+5) double a = 3.6, b; // неправильно, тип b уже определен.
+   int b = 4;
+
+Задание 1.3
+1:
+ а) int x;
+    x = 16;
+
+ б) int x = 16;
+
+2:
+ а) int t, x = -2;
+
+ б) int t = -2;
+    int x;
+    x = t; 
+
+ в) int t = -2;
+    x = t;
+
+3:
+ а) double t, f;
+    t = 5.5;
+    f = t * 10;
+
+ б) double t = 5.5 , f = t * 10;
+
+ в) double t;
+    double f;
+    f = t * 10;
+
+ г) double t;
+    double f = t * 10;;
+
+Задание 1.4
+class Summa	 
+{
+	int a;
+    int b;
+	public void Method()
+	{
+		a = 5;
+		b = 9		
+	}
+	
+	public int Summa_F()
+	{
+		int c = a + b;
+		return c;
+	}
+} 
+	
+class Program
+{	
+	public static void Main ()
+	{	
+		Summa SC = new Summa SC();
+		SC.Method();
+		System.out.println(SC.Summa_F());
+	}
+}
+
+
+Задание 1.5
+class Yvel	 
+{
+	double x;
+	
+	public void Method()
+	{
+		x = 7.5;	
+	}
+	
+	public int F_1()
+	{
+		double a = x * 2;	
+		return c;
+	}
+	
+	public int F_2()
+	{
+		double b = x * 3;	
+		return b;
+	}
+} 
+	
+class Program
+{	
+	public static void Main ()
+	{	
+		Yvel VD = new Yvel VD();
+		VD.Method();
+		System.out.println(VD.F_1());
+		System.out.println(VD.F_2());		
+	}
+}
+
+
+Задание 1.7
+class Prisvoen	 
+{
+	int x;
+	
+	public void Method()
+	{
+		x = 9;	
+	}
+	
+	public int F_1()
+	{
+		int y = x/3;	
+		return y;
+	}
+	
+
+} 
+	
+class Program
+{	
+	public static void Main ()
+	{	
+		Prisvoen PS = new Prisvoen PS();
+		PS.Method();
+		System.out.println(PS.F_1());	
+	}
+}
+
+Задание 1.6 
+class CONCAT_Class 
+{ 
+String a; 
+String b; 
+String c; 
+public void INC_Method() 
+{ 
+a = "5"; 
+b = "8"; 
+} 
+
+public int CONCAT_Func() 
+{ 
+try 
+{ 
+c = a + b; 
+return c; 
+} 
+catch 
+{ 
+Application.DoEvents(); 
+} 
+} 
+} 
+
+class Program 
+{ 
+public static void Main() 
+{ 
+CONCAT_Class CC = new CONCAT_Class(); 
+CC.INC_Method(); 
+System.out.Println(CC.CONCAT_Func()); 
+} 
+} 
+
+Задание 1.7 
+class DEC 
+{ 
+
+	int x; 
+	double y; 
+	public void Method() 
+	{ 
+		x = 55; 
+	} 
+
+	public int Func() 
+	{ 
+		y = x / 3; 
+		return y; 
+	}
+} 
+
+class Program 
+{ 
+	public static void Main() 
+	{ 
+		DEC DC = new DEC(); 
+		DC.Method(); 
+		System.out.Println(DC.Func()); 
+	} 
+}
+
+	
+	
+
+
+
+
+
